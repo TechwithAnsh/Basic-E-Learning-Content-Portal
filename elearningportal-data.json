@@ -1,0 +1,67 @@
+{
+  "users": [],
+  "enrollments": [],
+  "quizAttempts": [],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Hindi",
+      "category": "Hindi",
+      "level": "Classes 1–12",
+      "duration": "Chapter-wise lessons",
+      "lessons": 12,
+      "description": "Hindi reading, writing, grammar, comprehension and literature lessons for school students.",
+      "video": "",
+      "instructor": "Hindi Department",
+      "created_by": null
+    },
+    {
+      "id": 2,
+      "title": "English",
+      "category": "English",
+      "level": "Classes 1–12",
+      "duration": "Chapter-wise lessons",
+      "lessons": 12,
+      "description": "English grammar, vocabulary, reading comprehension, writing skills and literature for all school classes.",
+      "video": "",
+      "instructor": "English Department",
+      "created_by": null
+    },
+    {
+      "id": 3,
+      "title": "Mathematics",
+      "category": "Mathematics",
+      "level": "Classes 1–12",
+      "duration": "Chapter-wise lessons",
+      "lessons": 15,
+      "description": "Mathematics lessons covering arithmetic, algebra, geometry, mensuration, statistics and more by class level.",
+      "video": "",
+      "instructor": "Mathematics Department",
+      "created_by": null
+    },
+    {
+      "id": 4,
+      "title": "Science",
+      "category": "Science",
+      "level": "Classes 1–12",
+      "duration": "Chapter-wise lessons",
+      "lessons": 15,
+      "description": "School science lessons covering physics, chemistry and biology topics, with activities and practice questions.",
+      "video": "",
+      "instructor": "Science Department",
+      "created_by": null
+    },
+    {
+      "id": 5,
+      "title": "Social Studies (SST)",
+      "category": "Social Studies",
+      "level": "Classes 1–12",
+      "duration": "Chapter-wise lessons",
+      "lessons": 15,
+      "description": "History, geography, civics and social science lessons for school students, organised by class and chapter.",
+      "video": "",
+      "instructor": "Social Studies Department",
+      "created_by": null
+    }
+  ]
+}
