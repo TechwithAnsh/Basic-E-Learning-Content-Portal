@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="E-Learning Portal - Learn anytime, anywhere.">
+  <title>E-Learning Portal | School Learning Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#" data-page="home"><span class="brand-mark">EL</span><span>E-Learning<span class="brand-light"> Portal</span><small>ALL CLASSES · ALL SUBJECTS</small></span></a>
+      <div class="side-label">MENU</div>
+      <nav class="nav-menu">
+        <button class="nav-link active" data-page="home"><span>⌂</span> Overview</button>
+        <button class="nav-link" data-page="courses"><span>▤</span> Explore courses</button>
+        <button class="nav-link" data-page="my-learning"><span>◷</span> My learning</button>
+        <button class="nav-link" data-page="quiz"><span>✎</span> Practice quiz</button>
+        <button class="nav-link" data-page="resources"><span>▧</span> Resources</button>
+        <button class="nav-link" data-page="certificates"><span>♧</span> Certificates</button>
+      </nav>
+      <div class="side-label tools-label">WORKSPACE</div>
+      <nav class="nav-menu">
+        <button class="nav-link" data-page="teacher"><span>▦</span> Teacher studio</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="help-card"><div class="help-icon">✦</div><b>Need a hand?</b><p>Keep your learning journey on track.</p><button id="helpBtn">Get support ↗</button></div>
+        <div class="profile-mini"><div class="avatar" id="sideAvatar">S</div><div><b id="sideName">Student</b><small id="sideRole">Learner account</small></div><button class="dots" id="logoutBtn" title="Log out">⋯</button></div>
+      </div>
+    </aside>
 
+    <main class="main-area">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+        <div class="breadcrumb">Workspace <span>/</span> <b id="pageCrumb">Overview</b></div>
+        <div class="top-actions">
+          <div class="search-wrap"><span>⌕</span><input id="globalSearch" placeholder="Search courses..." aria-label="Search courses"></div>
+          <button class="icon-btn" id="notifBtn" title="Notifications">♧<i></i></button>
+          <button class="ghost-btn" id="accountBtn">Log in</button><button class="top-avatar" id="profileBtn">S</button>
+        </div>
+      </header>
+      <div class="content" id="content"></div>
+      <footer>© 2026 E-Learning Portal <span id="connectionStatus">Designed to make learning limitless.</span></footer>
+    </main>
+  </div>
+
+  <div class="modal-backdrop hidden" id="modalBackdrop">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <div id="modalContent"></div>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
